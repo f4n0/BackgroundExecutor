@@ -26,7 +26,6 @@ namespace BackgroundExecutor.Services
         private readonly IMessageService _messageService;
         private bool _isProcessing = false;
         private Task? _processingTask;
-        private int _counter = 1;
 
         public BackgroundExecutor(IMessageService messageService)
         {
