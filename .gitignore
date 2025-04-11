@@ -1,0 +1,7 @@
+﻿.vs
+*/obj/*
+*/bin/*
+*.user
+Benchmark.xlsx
+.idea
+_external

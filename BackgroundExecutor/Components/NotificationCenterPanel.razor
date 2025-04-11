@@ -1,0 +1,12 @@
+﻿@using BackgroundExecutor.Services
+@implements IDialogContentComponent<GlobalState>
+
+<div>
+
+    <FluentMessageBarProvider Section="@BackgroundExecutor.NotificationSectionName" MaxMessageCount="-1"  />
+</div>
+
+@code {
+    [Parameter]
+    public GlobalState Content { get; set; } = default!;
+}
